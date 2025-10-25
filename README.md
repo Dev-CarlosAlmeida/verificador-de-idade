@@ -13,6 +13,8 @@ A imagem correspondente (bebê, criança, jovem, adulto ou idoso);
 
 Um fundo em vídeo animado para um visual moderno e envolvente.
 
+🔗 Veja a aplicação online: https://dev-carlosalmeida.github.io/verificador-de-idade/
+
 🚀 Funcionalidades
 
 Máscara automática no campo de data (formato dd/mm/aaaa);
