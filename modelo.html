@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Verificador de Idade</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <video id="bg-video" autoplay loop muted playsinline>
+    <source src="vidio/montanhafundo.mp4" type="video/mp4">
+    Seu navegador não suporta o elemento de vídeo.
+  </video>
+
+  <header>
+    <h1>Verificador de Idade</h1>
+  </header>
+
+  <section>
+    <div class="input-container">
+      <p>Data de Nascimento:</p>
+      <input type="text" id="txtano" placeholder="00/00/0000" maxlength="10" oninput="mascaraData(this)">
+    </div>
+
+    <div class="input-container">
+      Sexo:
+      <input type="radio" name="radsex" id="mas" checked>
+      <label for="mas">Masculino</label>
+      <input type="radio" name="radsex" id="fem">
+      <label for="fem">Feminino</label>
+    </div>
+
+    <p>
+      <input type="button" value="Verificar" onclick="verificar()">
+    </p>
+
+    <div id="res">
+      Preencha os dados acima para ver o resultado!
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; Carlos Almeida</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
